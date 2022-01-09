@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f1f1f1;
+}
+.App {
+  height: 100vh;
+}
+.todo__container {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+header {
+  border: 2px solid #0d3660;
+  font-size: 1.5em;
+}
+.list__header {
+  border-left: 2px solid;
+    border-right: 2px solid;
+    border-color: #094c8c;
+    background-color: #e0e5b491;
+    padding: 0.5em;
+    font-family: system-ui;
+    font-size: 1em;
+    text-align: left;
+    color: #087c72;
+    border-bottom: 2px rgb(0 0 0 / 12%);
+    border-style: ridge;
+}
+.input__wrapper {
+  border: 2px solid #094c8c;
+  border-top: none;
+}
+.list__wrapper li:nth-child(even) {
+  background-color: #fff;
+}
+.list__wrapper li.item_done {
+  background-color: #c4d8e9;
+}
+.list__wrapper {
+  height: 65vh;
+  overflow-y: scroll;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  border-color: #094c8c;
+  background-color: #f7f7f7;
+}
+.todo__input {
+  width: 100%;
+  border-left: 2px solid;
+  border-right: 2px solid;
+}
+.todo__container  .add__button { 
+  color: #fff !important;
+  border: none !important;
+  height: 3.8em;
+}
+
+.add__button.Mui-disabled {
+  opacity: 0.3;
+}
+.todo__container .refresh__todo {
+  background-color: #05528f;
+  width: fit-content;
+  color: #ffff;
+  height: 8.5vh;
+}
