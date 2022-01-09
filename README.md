@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
-
+Live Demo - https://61daaa09e432d780e41fd300--stoic-elion-78ad46.netlify.app/
 This is a simple To do App with :
 1. Add a To Do Item.
 2. Delete an Existing To Do Item
@@ -8,7 +8,7 @@ This is a simple To do App with :
 5. Remaining Items count on top of the App.
 
 # Added Sound Effects as enhancement.
-
+# This app uses your local storage.
 ## Available Scripts
 
 In the project directory, you can run:
