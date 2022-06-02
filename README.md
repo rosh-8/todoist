@@ -8,8 +8,9 @@ This is a simple To do App with :
 4. Check, uncheck a To Do Item
 5. Remaining Items count on top of the App.
 
-# Added Sound Effects as enhancement.
-# This app uses your local storage.
+Added Sound Effects as enhancement🔉⚡️
+Cached todo items in local storage.
+
 ## Available Scripts
 
 In the project directory, you can run:
